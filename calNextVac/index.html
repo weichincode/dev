@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form onsubmit="submitDetails()">
+      <fieldset>
+        <p>
+          <label for="lastVaxDate">Last Vaccination Date</label>
+          <input type="date" id="lastVaxDate" name="lastVaxDate" required />
+        </p>
+
+        <p>
+          <label for="timeNextBooster">When to get next Booster</label>
+          <!-- <b>Next Jab on: </b><span id="nextJabDate"></span> -->
+        </p>
+
+        <p>
+          <input
+            type="submit"
+            id="submitBtn"
+            name="submitBtn"
+            value="Submit Details"
+          />
+        </p>
+      </fieldset>
+    </form>
+    <script src="./js/calVacDate.js"></script>
+  </body>
+</html>
