@@ -7,7 +7,7 @@ function submitDetails() {
     let lastJab = new Date(lastVaxDate);
     console.log(`lastJab= ${lastJab}`); // Tue Feb 01 2022 08:00:00
 
-    let nextJab = new Date(lastJab.setMonth(lastJab.getMonth() + 3));
+    let nextJab = new Date(lastJab.setMonth(lastJab.getMonth() + 9));
     console.log(`nextJab= ${nextJab}`);
 
     alert(`Get your next jab by ${nextJab}`);
